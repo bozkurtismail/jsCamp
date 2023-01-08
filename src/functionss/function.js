@@ -61,7 +61,7 @@ add(20,30,40,50,60)
 console.log(Math.max(10,20,30,100,50,600))//max içerisindeki değerler ...values şekline
                                         //array hale döndürür.
 
-let numbers5 = [600,500,100,30,20,10]//spread ayrıştırır
+let numbers5 = [600,500,100,30,20,10]//spread ayrıştırır.Bir array i parametre gibi virgülle ayırmaya yarar.
 console.log(...numbers5)
 
 /*let [icAnadolu,marmara] = [ //her bir obje değerini dizi içerisindeki değişkenlere atıyor.Bu işleme Destructuring 
