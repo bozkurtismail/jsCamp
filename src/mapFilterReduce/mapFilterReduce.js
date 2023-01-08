@@ -30,7 +30,8 @@ cart.map(product1=>{
 //Filter Fonksiyonu
 //Genellikle aramalarda kullanılır.Bir data içerisinde bir şey aranırken kullanılır.
 //Herbir nesne için filtreleme yapar.
-//Yepyeni bir array oluşturur.
+//Yepyeni bir array oluşturur.Bunu önemi angular,react veya vue de state management denen önemli bir nokta mevcut.Bir data değiştiğinde ekran yeniden şekilleniyor.Ekran Yeniden
+//render edilmesi için referansın değişmesi gerekmekte.Filter yeni bir array oluşturduğundan ekran yeniden render edilebilir.
 //filter === where
 let quantityOver2 = cart.filter(product2=>product2.quantity>2)//şartı sağlayanlardan yeni array oluşturur.
 
