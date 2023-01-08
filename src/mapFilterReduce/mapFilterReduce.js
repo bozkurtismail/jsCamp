@@ -30,7 +30,7 @@ cart.map(product1=>{
 //Filter Fonksiyonu
 //Genellikle aramalarda kullanılır.Bir data içerisinde bir şey aranırken kullanılır.
 //Herbir nesne için filtreleme yapar.
-//Yepyeni bir array oluşturu.
+//Yepyeni bir array oluşturur.
 //filter === where
 let quantityOver2 = cart.filter(product2=>product2.quantity>2)//şartı sağlayanlardan yeni array oluşturur.
 
