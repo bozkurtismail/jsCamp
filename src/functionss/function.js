@@ -42,7 +42,7 @@ let products = [
 addToCart4(products)
 
 function add(...numbers) {//...numbers noktalar rest(toparlar) operatorüdür.
-                        //... rest operatoru gelen parametreleri array yapar.
+                        //... rest operatoru gelen parametreleri [] şeklinde array yapar.
                         //rest fonksiyon içerisinde her zaman sona bırakılır.
                         //add(bisey,...numbers) benzeri şekilde
     let total=0
