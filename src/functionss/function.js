@@ -74,7 +74,7 @@ console.log(icAnadolu)
 console.log(marmara)*/
 
 
-
+//Destructuring var olan array in değerlerinin değişkenlere atanması yöntemidir.
 let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri,marmaraSehirleri,karadenizSehirleri]] = [ //her bir obje değerini dizi içerisindeki değişkenlere atıyor.Bu işleme Destructuring işlemi denir. 
     {name:"İç Anadolu",population : "20M"},
     {name:"Marmara",population : "30M"},
