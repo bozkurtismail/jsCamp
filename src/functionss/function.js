@@ -75,8 +75,8 @@ console.log(marmara)*/
 
 
 
-let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri,marmaraSehirleri,karadenizSehirleri]] = [ //her bir obje değerini dizi içerisindeki değişkenlere atıyor.Bu işleme Destructuring 
-    {name:"İç Anadolu",population : "20M"},//işlemi denir.
+let [icAnadolu,marmara,karadeniz,[icAnadoluSehirleri,marmaraSehirleri,karadenizSehirleri]] = [ //her bir obje değerini dizi içerisindeki değişkenlere atıyor.Bu işleme Destructuring işlemi denir. 
+    {name:"İç Anadolu",population : "20M"},
     {name:"Marmara",population : "30M"},
     {name:"Karadeniz",population : "10M"},
     [
